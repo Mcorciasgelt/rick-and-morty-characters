@@ -75,7 +75,38 @@ table {
 ul {  
   padding-top: 100px;
   list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  justify-content: center ;
+
+}
+
+.personaje {
+  border: .5px solid rgb(122, 105, 105);
+  border-radius: 5px;
+  padding: 1%;
+  width: 15%;
+  height: auto;
+}
+
+.imgPersonaje {
+  width: 100%;
+  height: auto;
 }
 
 
 
+.tituloInfo {
+  font-size: 1.1em;
+  font-weight: bold;
+
+}
+
+.tituloInfo h3 {
+  display: inline;
+}
+
+.tituloInfo p {
+  display: inline;
+}
